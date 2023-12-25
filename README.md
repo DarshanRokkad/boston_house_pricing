@@ -1,4 +1,4 @@
-<h1 align="center">Boston House Price Prediction End to End Machine learning Project</h1>
+<h1 align="center">Boston House Price Prediction <br> End to End Machine learning Project</h1>
 
 
 <h2 align="center">Software and Tools Used</h2>  
