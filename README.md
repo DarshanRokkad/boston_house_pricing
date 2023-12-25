@@ -17,8 +17,17 @@
 ```  
 ├── README.md  
 ├── .gitignore  
+├── requirements.txt  
 ├── models  
 ├── notebook  
 ├── application  
 ```
 
+---
+
+<h3 align="center">Virtual Environment</h3>  
+
+1. Creation -> ```python -m venv .venv```  
+2. Activate Virtual Environment -> ```.venv\Scripts\activate``` (or) Can be selected manually in vs code
+
+---
