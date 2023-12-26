@@ -13,6 +13,20 @@
 
 ---  
 
+<h3 align="center">Project Life Cycle</h3>  
+
+1. Requirement (or) Data gathering.
+2. Exploratory Data Analysics.
+3. Feature Engineernig (not required in this project).
+4. Feature Selection (not required in this project).
+5. Model Training and Evaluation.
+6. Model Hyperparamter Tuning (not required in this project).
+7. Web Application Creation using Flask.
+8. Add Code to Github.
+9. Model Deployment on AWS.  
+
+---
+
 <h3 align="center">Directory Structure</h3>  
 
 ```  
