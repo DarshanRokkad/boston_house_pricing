@@ -63,3 +63,11 @@
     7. Then we will get a response.
 
 ---
+
+<h3 align="center">Deployment on AWS</h3>  
+
+- Here, We push our docker image to AWS ECR(Elastic Container Repository).
+- Then we run that image using AWS ECS(Elastic Container Services).
+- In this project we also build CICD pipeline using github actions.
+
+---
