@@ -4,73 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House Price Prediction</title>
-    <style>
-        body {
-            background: linear-gradient(45deg, #3498db, #e74c3c);
-            color: #fff;
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-
-        h1 {
-            color: #fff;
-        }
-
-        form {
-            background-color: rgba(255, 255, 255, 0.9);
-            max-width: 400px;
-            margin: 0 auto;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: #333;
-        }
-
-        input {
-            width: calc(100% - 12px);
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            text-align: center;
-        }
-
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #fff;
-            color: #3498db;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: bold;
-        }
-
-        button:hover {
-            background-color: #e74c3c;
-            color: #fff;
-        }
-
-        h2 {
-            margin-top: 20px;
-            color: #fff;
-        }
-    </style>
+    <title>House Price Prediction</title>    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
 
     <h1>Boston House Price Prediction</h1>
 
+    <!-- <form action="{{ url_for{'prediction'} }}" method="post"> -->
     <form action="/predict" method="post">
         <label>Crime Rate</label>
         <input type="text" name="CRIM" placeholder="CRIM" required="required">
